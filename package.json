@@ -1,0 +1,16 @@
+{
+  "name": "borozdov-glacier",
+  "private": true,
+  "description": "A Nordic apothecary with weightless type: warm white, hairline edges, 2px corners, light headlines and one powder-blue plane for what you act on.",
+  "license": "MIT",
+  "scripts": {
+    "lint": "stylelint theme.css",
+    "build": "node scripts/build.mjs",
+    "screenshots": "python3 scripts/screenshots.py"
+  },
+  "devDependencies": {
+    "lucide-static": "^1.47.0",
+    "stylelint": "^17.0.0",
+    "stylelint-config-obsidianmd": "^0.1.0"
+  }
+}
